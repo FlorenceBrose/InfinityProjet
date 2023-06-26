@@ -1,0 +1,27 @@
+#boiterecherche {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+       
+}
+
+#boiterecherche img {
+    width: 400px;
+    height: 550px;
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: -1px 1px 14px 4px white;
+}
+
+#resultatrecherche {
+    color: rgba(247, 183, 6, 0.466);
+    background-color: rgba(255, 255, 255, 0.11);
+    height: 30px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p {
+    vertical-align: middle;
+}

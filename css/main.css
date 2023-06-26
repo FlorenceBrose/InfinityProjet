@@ -1,0 +1,121 @@
+body {
+    background: url('../Images/background2.jpeg') fixed;
+    background-position:center ;
+    background-size: contain;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    }
+
+/* Style du header */
+
+.headerint {
+    background-color: rgba(10, 6, 25, 0.849);
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 8px solid rgba(245, 115, 113, 0.42);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: relative;
+}    
+
+#logo img {
+    height: 63px;
+    width: 241px;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+#buttonnav {
+    display: flex;
+    height: 65px;
+    justify-content: space-around;
+    align-items:center;
+} 
+
+#buttonnav a  {
+    padding-top: 10px;
+}
+
+.haut {
+    background-color: rgba(89, 116, 151, 0.616);
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 110px;
+    height: 30px;
+    border: 0px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+/* Style de la Barre de Recherche */
+.recherche {
+    margin: 20px;
+    width: 55vw;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(253, 253, 253, 0.329);
+    color: rgba(255, 255, 255, 0.89);
+    border-radius: 2px;
+}
+
+#recherche {
+    margin-left: 15vw;
+}
+
+section .recherche {
+    align-self: center;
+    margin: 5px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: px;
+    letter-spacing: 1.5px;
+}
+
+/* Style du Footer */
+
+.footerint {
+    background-color: rgba(0, 0, 0, 0.658);
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+   
+}
+
+.bas {
+    background-color: rgba(89, 116, 151, 0.384);
+    color: #FFFFFF;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    border: 0px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#buttonnav2 {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    
+}
+
+#buttonnav2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+section video {
+    
+    width: 800px;
+    height: 400px;
+    margin-left: 40px;
+
+}
+
+.partie1 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: 400px;
+}
+
+section video {
+
+    box-shadow:  0px 0px 20px 5px white;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+section img {
+    width: 300px;
+    height: 400px;
+    filter: opacity(80%);
+
+}
+
+
+.description {
+    font-size: 1.1em;
+    color: white;
+    height: 400px;
+    width: 70%;
+}
+
+.description h3 {
+
+    font-size: 1.5em;
+    color: white;
+}
+
+
+.episodes {
+    border-top: 20px  rgba(255, 255, 255, 0.082);
+    height: 200px;
+
+}
+
+.episodes ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.episodes ul img {
+    width: 150px;
+    height: 200px;
+    
+}
+
+.episodes li {
+   list-style: none;
+   margin-left: 10px;
+}
+
+.episodes ul img:hover {
+    width: 150px;
+    height: 200px;
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 50ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 50ms ease-in;
+    -ms-transform: scale(1.2);   
+    -moz-transition: all 50ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 50ms ease-in;
+    transform: scale(1.2);
+}
