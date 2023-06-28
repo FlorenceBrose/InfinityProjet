@@ -43,7 +43,7 @@
     }
 
     .section p {
-        height: 13vw;
+        height: 13.5vw;
         font-size: 1.5vw;
         writing-mode: vertical-lr;
         transform: rotate(180deg);
